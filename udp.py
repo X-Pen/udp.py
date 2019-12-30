@@ -11,7 +11,7 @@ import random
 import sys
 
 def usage():
-    print "Usage: " + sys.argv[0] + " <ip> <port> <second>"
+    print("Usage: " + sys.argv[0] + " <ip> <port> <second>")
 
 def flood(victim, vport, duration):
     # okay so here I create the server, when i say "SOCK_DGRAM" it means it's a UDP type program
