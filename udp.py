@@ -30,7 +30,11 @@ def flood(victim, vport, duration):
         sent = sent + 1
         print ("Attacking %s sent packages %s at the port %s "%(sent, victim, port)
 
+(
 def main():
+
+
+    pass
     print len(sys.argv)
     if len(sys.argv) != 4:
         usage()
